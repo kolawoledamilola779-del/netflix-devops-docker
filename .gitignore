@@ -1,0 +1,16 @@
+#Environment variables and secrets
+.env
+
+# Node.js
+node_modules/
+
+# Maven build files
+target/
+
+# IDE files
+.vscode/
+.idea/ 
+
+# OS files
+.DS_Store
+Thumbs.db

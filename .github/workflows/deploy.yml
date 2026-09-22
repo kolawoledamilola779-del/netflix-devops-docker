@@ -87,7 +87,7 @@ jobs:
             --document-name "AWS-RunShellScript" \
             --comment "Deploy Netflix application from GitHub Actions" \
             --parameters 'commands=[
-              "cd ~/ubuntu",
+              "cd /home/ubuntu",
               "docker compose pull",
               "docker compose up -d",
               "docker image prune -f"
